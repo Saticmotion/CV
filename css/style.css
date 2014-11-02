@@ -72,6 +72,10 @@ aside li {
     position: fixed !important;
 }
 
+#face {
+    padding-left: 10%;
+}
+
 .content {
     background-color: #fff;
     position: absolute;
@@ -79,6 +83,18 @@ aside li {
     width: 100%;
     min-height: 25%;
     z-index: 2;
+}
+
+.dropdown {
+    background: url("../img/arrow.png") no-repeat top left;
+    margin-bottom: -4px;
+    display: inline-block;
+    width: 19px;
+    height: 22px;
+}
+
+.dropdown:hover {
+    background: url("../img/arrowhover.png") no-repeat top left;
 }
 
 .year,
