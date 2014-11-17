@@ -95,6 +95,22 @@ aside li {
 
 .dropdown:hover {
     background: url("../img/arrowhover.png") no-repeat top left;
+    cursor: pointer;
+}
+
+.overlay {
+	position: absolute;
+	z-index: 10;
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.overlay img
+{
+	margin: 5px;
 }
 
 .year,
